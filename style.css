@@ -1,0 +1,20 @@
+body {
+    background-color: #111;
+    margin: 0;       
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+ul li a {
+    --c: goldenrod;
+    color: var(--c);
+    font-size: 16px;
+    border-radius: 0.5em;
+    width: 12em;
+    height: 3em;
+}
